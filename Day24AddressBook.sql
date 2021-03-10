@@ -55,4 +55,7 @@ UPDATE AddressBook SET Type = 'FAMILY' WHERE FirstName = 'Sachin' or FirstName =
 UPDATE AddressBook SET Type = 'PROFESSION' WHERE FirstName = 'Pratiksha';
 SELECT * FROM AddressBook;
 
+--UC10:Ability to get  number of contact person
+SELECT Type, COUNT(*) AS TYPE_COUNT FROM AddressBook GROUP BY Type;
+
 
