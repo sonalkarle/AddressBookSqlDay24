@@ -1,3 +1,8 @@
+--UC1:Create Addressbook Database
+CREATE DATABASE AddressBook;
+use AddressBook;
+
+
 --UC2:Create addressBook table
 CREATE TABLE AddressBook
 (
