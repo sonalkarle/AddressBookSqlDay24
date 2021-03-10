@@ -4,9 +4,6 @@
 
 
 
---UC5:Ability to delete using name
-DELETE FROM AddressBook WHERE FirstName = 'Ajinkya';
-SELECT * FROM AddressBook;
 
 --UC6:Retrive the data from city and state
 SELECT * FROM AddressBook WHERE City = 'Mumbai';
