@@ -7,7 +7,9 @@
 
 
 
-
+--UC7:Ability to understand the size
+SELECT CITY, COUNT(CITY) AS CITY_COUNT FROM AddressBook GROUP BY City;
+SELECT STATE, COUNT(STATE) AS STATE_COUNT FROM AddressBook GROUP BY State;
 
 
 --UC8:Ability to retrive the sorted list 
