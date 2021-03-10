@@ -27,3 +27,7 @@ INSERT INTO AddressBook(FirstName, LastName, Address, City, State, Zip, PhoneNum
 ('Pratiksha', 'kare', 'Kothrude', 'Pune', 'Maharashtra', '4110343', '9702420754', 'pratiksha@gmail.com');
 alter table AddressBook ADD Country varchar (10);
 update AddressBook set Country = 'India';
+
+--UC4:Ability to  edit contact
+UPDATE AddressBook SET PhoneNumber = '9969818133' WHERE FirstName = 'Ajinkya'
+SELECT * FROM AddressBook;
