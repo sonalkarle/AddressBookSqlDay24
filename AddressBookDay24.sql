@@ -11,13 +11,7 @@
 
 
 
---UC9:Ability to find name and type
-ALTER table AddressBook ADD Type VARCHAR(20);
-SELECT * FROM AddressBook;
-UPDATE AddressBook SET Type = 'FRIENDS';
-UPDATE AddressBook SET Type = 'FAMILY' WHERE FirstName = 'Sachin' or FirstName = 'sneha';
-UPDATE AddressBook SET Type = 'PROFESSION' WHERE FirstName = 'Pratiksha';
-SELECT * FROM AddressBook;
+
 
 
 --UC10:Ability to get  number of contact person
