@@ -5,9 +5,6 @@
 
 
 
---UC6:Retrive the data from city and state
-SELECT * FROM AddressBook WHERE City = 'Mumbai';
-SELECT * FROM AddressBook WHERE State = 'Maharashtra';
 
 
 --UC7:Ability to understand the size
